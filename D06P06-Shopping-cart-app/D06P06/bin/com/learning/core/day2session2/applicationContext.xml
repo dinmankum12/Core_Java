@@ -1,0 +1,4 @@
+<aop:aspectj-autoproxy />
+<bean id="shoppingCart" class="com.mphasis.ShoppingCart" />
+ 
+<bean id="loggingAspect" class="com.mphasis.LoggingAspect" />

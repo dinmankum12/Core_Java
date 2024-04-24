@@ -1,0 +1,5 @@
+package com.learning.core.day7session1.bookstore.repository;
+
+public class BookStoreRepository {
+
+}

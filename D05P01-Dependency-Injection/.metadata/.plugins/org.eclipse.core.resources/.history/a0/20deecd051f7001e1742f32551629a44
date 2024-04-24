@@ -1,0 +1,20 @@
+http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- Define beans for Battery and Disc -->
+    <bean id="battery" class="com.example.Battery">
+        <property name="productId" value="B100"/>
+        <property name="productName" value="AAA Rechargeable Battery"/>
+        <property name="price" value="5.99"/>
+        <property name="rechargeable" value="true"/>
+    </bean>
+ 
+    <bean id="disc" class="com.example.Disc">
+        <property name="productId" value="D100"/>
+        <property name="productName" value="DVD Disc"/>
+        <property name="price" value="9.99"/>
+        <property name="capacity" value="700"/> <!-- in MB -->
+    </bean>
+ 
+</beans>

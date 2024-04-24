@@ -1,0 +1,19 @@
+package com.learning.core.day6session2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+ 
+@RestController
+@RequestMapping("/books")
+public class BookStoreRestController {
+    @Autowired
+    private BookStoreService service;
+ 
+    @GetMapping
+    public List<Book> getAllBooks() {
+        return service.findAllBooks();
+    }
+ 
+    // Implement other CRUD endpoints
+}

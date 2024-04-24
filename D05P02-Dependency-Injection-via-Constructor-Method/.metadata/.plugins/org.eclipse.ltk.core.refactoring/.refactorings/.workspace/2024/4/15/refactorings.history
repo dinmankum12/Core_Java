@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;D01P02&apos; to &apos;D01P02-Dependency Injection via Constructor Method&apos;&#x0D;&#x0A;- Original element: &apos;D01P02&apos;&#x0D;&#x0A;- Renamed element: &apos;D01P02&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;D01P02&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=D01P02" name="D01P02-Dependency Injection via Constructor Method" references="true" stamp="1712765160841" version="1.0"/>
+</session>

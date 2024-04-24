@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+C:\Users\jyothimol.ks\Documents\Practice Exercises\Spring Hands-on Mastery - S1\D08P12-Serving-Web-Content-with-Spring-MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3398298875.index
+\D04P12\src\main\java

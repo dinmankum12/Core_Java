@@ -1,0 +1,13 @@
+package com.learning.core.day4session1;
+
+import java.util.Date;
+
+public class Passenger_Details {
+    private int Passenger_id;
+    private String Passenger_name;
+    private Date Passenger_dob;
+    private String Passenger_phone;
+    private String Passenger_email;
+ 
+    // Constructors, getters, and setters
+}

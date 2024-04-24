@@ -1,0 +1,8 @@
+package com.learning.core.day8session1.ebookstore.controller;
+
+@RestController
+@RequestMapping("/books")
+public class BookStoreRestController {
+ 
+    // Define your REST endpoints here
+}

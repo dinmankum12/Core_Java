@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;D02P04&apos; to &apos;D02P04-Spring-Bean-Scopes-in-IoC-Container&apos;&#x0D;&#x0A;- Original element: &apos;D02P04&apos;&#x0D;&#x0A;- Renamed element: &apos;D02P04&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;D02P04&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=D02P04" name="D02P04-Spring-Bean-Scopes-in-IoC-Container" references="true" stamp="1712820495447" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package com.learning.core.day1session1;
+
+public class Disc extends Product {
+    private int capacity;
+ 
+    // Setters and getters
+}

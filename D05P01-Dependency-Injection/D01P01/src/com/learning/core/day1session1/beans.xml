@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- Define beans for Product, Battery, and Disc -->
+    <bean id="product" abstract="true" class="com.example.Product">
+        <!-- Define common properties for Product -->
+        <property name="productId" value="P100"/>
+        <property name="productName" value="Generic Product"/>
+        <property name="price" value="0.0"/>
+    </bean>
+ 
+    <bean id="battery" parent="product" class="com.example.Battery">
+        <!-- Set Battery-specific properties -->
+        <property name="rechargeable" value="true"/>
+    </bean>
+ 
+    <bean id="disc" parent="product" class="com.example.Disc">
+        <!-- Set Disc-specific properties -->
+        <property name="capacity" value="700"/> <!-- in MB -->
+    </bean>
+ 
+</beans>

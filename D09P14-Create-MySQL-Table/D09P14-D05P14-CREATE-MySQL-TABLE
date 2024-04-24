@@ -1,0 +1,17 @@
+CREATE TABLE BookDetails (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    book_title VARCHAR(255),
+    book_publisher VARCHAR(255),
+    book_isbn VARCHAR(20),
+    book_number_of_pages INT,
+    book_year INT
+);
+
+INSERT INTO BookDetails (book_title, book_publisher, book_isbn, book_number_of_pages, book_year)
+VALUES ('The Great Gatsby', 'Scribner', '9780743273565', 180, 1925);
+ 
+INSERT INTO BookDetails (book_title, book_publisher, book_isbn, book_number_of_pages, book_year)
+VALUES ('To Kill a Mockingbird', 'J.B. Lippincott & Co.', '9780061120084', 281, 1960);
+ 
+INSERT INTO BookDetails (book_title, book_publisher, book_isbn, book_number_of_pages, book_year)
+VALUES ('1984', 'Secker & Warburg', '9780451524935', 328, 1949);

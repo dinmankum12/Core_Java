@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\jyothimol.ks\Documents\Practice Exercises\Spring Hands-on Mastery - S1\D07P09-JDBC-TEMPL-FOR-DB\.metadata\.plugins\org.eclipse.jdt.core
+3382178767.index
+1865797976.index
+1116760901.index

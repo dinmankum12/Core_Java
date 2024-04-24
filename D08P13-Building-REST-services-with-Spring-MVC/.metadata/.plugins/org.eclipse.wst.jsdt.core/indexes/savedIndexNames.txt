@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\jyothimol.ks\Documents\Practice Exercises\Spring Hands-on Mastery - S1\D08P13-Building-REST-services-with-Spring-MVC\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2461434031.index
+3811626838.index
+3567745841.index
+1950071500.index
+2913309134.index

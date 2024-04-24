@@ -1,0 +1,23 @@
+http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- PropertyPlaceholderConfigurer to read properties file -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+<property name="location" value="classpath:discounts.properties"/>
+    </bean>
+ 
+    <!-- Bean definitions -->
+    <bean id="product" class="com.example.Product">
+specialcustomer.discount}"/>
+    </bean>
+ 
+    <bean id="battery" class="com.example.Battery">
+summer.discount}"/>
+    </bean>
+ 
+    <bean id="disc" class="com.example.Disc">
+endofyear.discount}"/>
+    </bean>
+ 
+</beans>

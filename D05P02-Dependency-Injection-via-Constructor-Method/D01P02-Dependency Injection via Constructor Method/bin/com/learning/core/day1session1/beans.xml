@@ -1,0 +1,12 @@
+<beans>
+    <bean id="batteryBean" class="com.example.Battery">
+        <constructor-arg value="Battery" />
+        <constructor-arg value="10.0" />
+        <constructor-arg value="true" />
+    </bean>
+    <bean id="discBean" class="com.example.Disc">
+        <constructor-arg value="Disc" />
+        <constructor-arg value="5.0" />
+        <constructor-arg value="100" />
+    </bean>
+</beans>

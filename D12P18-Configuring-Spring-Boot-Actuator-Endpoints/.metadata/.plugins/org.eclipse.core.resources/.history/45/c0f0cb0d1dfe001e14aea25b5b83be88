@@ -1,0 +1,5 @@
+package com.learning.core.day8session1.ebookstore.service;
+
+public class BookStoreService {
+
+}

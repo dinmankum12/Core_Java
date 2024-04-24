@@ -1,0 +1,17 @@
+package com.learning.core.day8session1.ebookstore.service;
+
+import com.learning.core.day8session1.ebookstore.entity.Book;
+import com.learning.core.day8session1.ebookstore.repository.BookStoreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+ 
+import java.util.List;
+ 
+@Service
+public class BookStoreService {
+ 
+    @Autowired
+    private BookStoreRepository bookStoreRepository;
+    
+    // Define your service methods here
+}

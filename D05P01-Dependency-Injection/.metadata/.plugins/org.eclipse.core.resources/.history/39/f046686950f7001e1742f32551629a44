@@ -1,0 +1,9 @@
+package com.learning.core.day1session1;
+
+public abstract class Product {
+    private String productId;
+    private String productName;
+    private double price;
+ 
+    // Setters and getters
+}

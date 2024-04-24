@@ -1,0 +1,13 @@
+http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- Define Cashier bean -->
+    <bean id="cashierBean" class="com.example.Cashier"
+        init-method="openFile"
+        destroy-method="closeFile">
+        <property name="fileName" value="checkout"/>
+        <property name="path" value="/path/to/directory"/>
+    </bean>
+ 
+</beans>

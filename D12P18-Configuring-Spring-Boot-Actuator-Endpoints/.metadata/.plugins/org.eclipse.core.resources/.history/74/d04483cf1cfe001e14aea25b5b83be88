@@ -1,0 +1,5 @@
+package com.learning.core.day8session1.ebookstore.entity;
+
+public class Book {
+
+}
